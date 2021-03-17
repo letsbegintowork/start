@@ -58,6 +58,7 @@ public class HelloWorldModel {
             + "\tResource type is: " + resourceType + "\n"
             + "\tCurrent page is: " + (currentPage != null ? currentPage.getPath() : "") + "\n";
         System.out.println("hello");
+        System.out.println("hello1");
     }
 
     public String getMessage() {
