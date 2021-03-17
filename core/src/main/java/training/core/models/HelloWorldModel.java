@@ -59,6 +59,7 @@ public class HelloWorldModel {
             + "\tCurrent page is: " + (currentPage != null ? currentPage.getPath() : "") + "\n";
         System.out.println("hello");
        System.out.println("hello");
+       System.out.println("hello"); 
      
     }
 
