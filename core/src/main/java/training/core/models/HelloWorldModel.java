@@ -57,6 +57,7 @@ public class HelloWorldModel {
             + "\tThis is instance: " + settings.getSlingId() + "\n"
             + "\tResource type is: " + resourceType + "\n"
             + "\tCurrent page is: " + (currentPage != null ? currentPage.getPath() : "") + "\n";
+        System.out.println("hello");
     }
 
     public String getMessage() {
