@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: Abhishek
+Build-Jdk: 12.0.2
+Implementation-Title: aem - UI apps
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.mindtree
+Content-Package-Roots: /apps/com.mindtree.apps,/etc/packages/adobe/cq60/
+ core.wcm.components.all-2.5.0.zip,/etc/packages/adobe/cq60/core.wcm.com
+ ponents.examples-2.5.0.zip
+Content-Package-Description: UI apps package for aem
+Content-Package-Id: package:aem-project.ui.apps:0.0.1-SNAPSHOT
+Import-Package: com.adobe.cq.sightly;version="[3.2.0,4.0.0)",org.apache.
+ sling.api;version="[2.3.3,3.0.0)",org.apache.sling.scripting.sightly.po
+ jo;version="[1.0.1,2.0.0)"
+Content-Package-Type: mixed
+
